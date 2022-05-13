@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(istanbul.jpg);
+  background-color: #9fe2e2;
   background-size: cover;
   font-family: "popins", sans-serif;
 }

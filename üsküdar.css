@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(istanbul.jpg);
+  background-color: #b3ffff;
   background-size: cover;
   font-family: "popins", sans-serif;
 }
@@ -19,7 +19,7 @@ a {
 /*Header start*/
 header {
   height: 100px;
-  border-bottom: 2px solid rgba(219, 203, 121, 0.651);
+  border-bottom: 2px solid #4d2600;
 }
 header nav {
   display: flex;
@@ -31,7 +31,7 @@ header nav .logo a {
   text-decoration: none;
   font-size: 25px;
   font-weight: 700;
-  color: rgba(219, 203, 121, 0.651);
+  color: #4d2600;
 }
 nav ul {
   list-style: none;
@@ -40,7 +40,7 @@ nav ul {
 }
 nav ul a {
   text-decoration: none;
-  color: rgba(219, 203, 121, 0.651);
+  color: #4d2600;
 }
 nav .header-menu {
   display: flex;
@@ -51,14 +51,14 @@ nav .header-menu {
 
 .col1 {
   display: flex;
-  border: 1px solid rgba(255, 255, 255, 0.548);
+  border: 1px solid rgba(255, 255, 255, 0.055);
   align-items: center;
   margin: 20px;
   border-radius: 9px;
   background-color: rgba(250, 242, 242, 0.918);
 }
 .başlık h3 {
-  color: rgba(236, 226, 172, 0.651);
+  color: #4d2600;
   font-size: 26px;
   position: relative;
   right: -15px;
