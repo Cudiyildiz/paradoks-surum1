@@ -76,3 +76,9 @@ nav .header-menu {
   top: 2px;
 }
 /*article end*/
+.logo img {
+  border: 2px solid rgb(164, 216, 164);
+  width: 81px;
+  height: 81px;
+  border-radius: 999rem;
+}

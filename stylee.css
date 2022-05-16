@@ -19,6 +19,12 @@ a {
 }
 
 /*Header start*/
+.logo img {
+  border: 2px solid rgb(164, 216, 164);
+  width: 81px;
+  height: 81px;
+  border-radius: 999rem;
+}
 header {
   height: 100px;
   border-bottom: 2px solid rgba(135, 118, 30, 0.651);

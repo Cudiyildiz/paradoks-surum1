@@ -129,17 +129,16 @@ function showSlide(i) {
 //setintorvel slaytı durdurmadan devam edeer
 //seltimeout ise tek seferliğine devam ettririr
 
-document.getElementById('logo').innerHTML='<b>Paradoks Gezi</b>' //başlık ismi
+grup = document.querySelectorAll("#card");
+grup.forEach(function (item) {
+  item.style.background = "black";
+});
 
-grup = document.querySelectorAll('#card');
-grup.forEach(function(item){
-    item.style.background="black";   }); 
+let doc = document.querySelector("h5");
+doc.style.color = "beige";
 
-    let doc =document.querySelector('h5')
-doc.style.color="beige";
+let cod = document.querySelector("#ik");
+cod.style.color = "beige";
 
-let cod =document.querySelector('#ik')
-cod.style.color="beige";
-
-let etiket =document.getElementById("etiket");
-etiket.style.color="white";
+let etiket = document.getElementById("etiket");
+etiket.style.color = "white";
